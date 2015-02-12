@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ট্রেন এর সময়সূচী </title>
+        <!-- All Stylesheets -->
+        <link rel="stylesheet"  href="../css/All-Stylesheets.css">
+        <!-- Add 2 Home -->
+        <link rel="apple-touch-icon" href="../images/add-to-home/touch-icon-iphone.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="../images/add-to-home/touch-icon-ipad.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="../images/add-to-home/touch-icon-iphone4.png" />
+        <script type="text/javascript" src="../js/add2home.js" charset="utf-8"></script>
+        <!-- Javascript File -->
+        <script src="../js/jquery.js"></script>
+        <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
+        <!-- jQuery Mobile -->
+        <script src="../js/jquery.mobile-1.3.2.min.js"></script>
+        <!-- Glyphicons -->
+        <script type="text/javascript" async src="../js/glyphicons/ga.js"></script>
+    </head>
+    <body>
+        <!-- Page Contents Starts
+            ================================================== -->
+        <div data-role="page" id="page" data-theme="a">
+            <!-- header Starts -->
+            <div data-role="header" data-theme="f" class="header">
+                <h1><a href="#" rel="external">ট্রেন এর সময়সূচী </a></h1>
+                <a href="#left-panel" data-shadow="false" ><i class="icon-large icon-show-thumbnails"></i>  </a>
+                <a href="#right-panel" data-shadow="false" ><i class="icon-large icon-align-justify"></i>  </a>
+            </div>
+            <!-- header Ends -->
+            <div data-role="content">
+            
+                <!-- Welcome Text Starts -->
+                <div class="welcome-text">
+                    <p>বাংলাদেশ রেলওয়ে 'র এই অ্যাপ এ স্বাগতম । অ্যাপ টির মাধ্যমে বাংলাদেশ  রেলওয়ে 'র  অধীনে থাকা সমস্ত ট্রেন এর সময়সূচী জানা যাবে । ট্রেন এর সময় সূচী <a href="http://www.railway.gov.bd/site/page/f8898018-00a5-4096-a803-8b533232e60c" rel="external">এই লিঙ্ক  </a>  থেকে সংগ্রহ করা হয়েছে । </p>
+                </div>
+                <!-- Welcome Text Ends -->
+                <hr>
+            <h3 class="#"><center><i class="icon-large icon-train"></i> ট্রেন সমূহ </center></h3>
+                <ul data-role="listview" data-inset="true">
+				    <li>
+                        <a href="../pages/time_table_d2v.html">
+                            <img src="../images/train_icon.png" width="100%" height="100%">
+                            <h3>ঢাকা থেকে দেশে'র  </h3>
+                            <p>বিভিন্ন স্থানে </p>
+                        </a>
+                    </li>
+					<li>
+                        <a href="../pages/time_table_v2d.html">
+                            <img src="../images/train_icon.png" width="100%" height="100%">
+                            <h3>দেশে'র বিভিন্ন স্থান   </h3>
+                            <p>থেকে ঢাকা'য় </p> 
+                        </a>
+                    </li>
+					<li>
+                        <a href="../pages/time_table_me_dual.html">
+                            <img src="../images/train_icon.png" width="100%" height="100%">
+                            <h3>ঢাকার বাইরের   </h3>
+                            <p> জেলা সমূহের ভিতর </p> 
+                        </a>
+                    </li>
+                </ul>
+                <hr>
+            <h3 class="#"><center><i class="icon-large icon-train"></i>মেইল ট্রেন সমূহ</center></h3>
+                <ul data-role="listview" data-inset="true">
+				    <li>
+                        <a href="../pages/time_table_me_meter.html">
+                            <img src="../images/train_icon.png" width="100%" height="100%">
+                            <h3>মেইল ও এক্সপ্রেস ট্রেনের তালিকা   </h3>
+                        </a>
+                    </li>
+					</ul>
+
+            <div class="item"><center>© ২০১৫  সকল সত্ত্ব সংরক্ষিত । </center><br></div>
+			<div class="item"><center>Made with love in Bangladesh .</center></div>
+            </div>
+			   
+  <!-- Left Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="left-panel" data-theme="g">
+
+                <!-- Main Menu Starts --> 
+                <div id="accordion">
+                    <ul id="items">
+                        <li>
+                            <a href="../index.html" rel="external" class="activated">অ্যাপলিকেশন এর মূল পাতা </a>
+                        </li>
+						 <li><a href="../pages/time_table_d2v.html" rel="external">আন্তঃনগর ট্রেনের তালিকা ( ঢাকা থেকে  )</a></li>
+						 <li><a href="../pages/time_table_v2d.html" rel="external">আন্তঃনগর ট্রেনের তালিকা ( ঢাকার দিকে   )</a></li>
+						  <li><a href="../pages/time_table_me_dual.html" rel="external"> আন্তঃনগর ট্রেনের তালিকা (  অন্যান্য জেলা সমূহে )    </a></li>
+						 <li><a href="../pages/time_table_me_meter.html" rel="external"> মেইল ও এক্সপ্রেস ট্রেনের তালিকা  </a></li>
+                    </ul>
+                </div>
+                <!-- Main Menu Ends -->
+                <!-- Main Menu Ends -->
+            </div>
+            <!-- Left Panel Ends
+                ================================================== -->
+            <!-- Right Panel Starts
+                ================================================== -->
+            <div data-role="panel" id="right-panel" data-position="right" data-theme="g">
+                <!-- Phone Number -->
+                <div class="r-phone"><a href="tel:610383766284"><i class="icon-large icon-phone"></i>  +৮৮০১৬৮৯৬২১০০৩ </a></div>
+
+                <!-- Contact Info Starts -->
+                <div class="r-contact-info">
+                    <i class="icon-large icon-envelope"></i><span class="heading">যোগাযোগ </span><br><br>
+                    <i class="icon-large icon-google-maps"></i> &nbsp;&nbsp;<strong>পকেট এনটারটেইনমেণ্ট </strong><br>
+                                                     ১৯  , শহীদ তাজ উদ্দিন সরণী <br>
+                                                    রোড মগবাজার <br> 
+                                                    ঢাকা - ১২১৭ । <br><br>
+                    <i class="icon-large icon-phone"></i> &nbsp;&nbsp;<a href="#">+৮৮০১৬৮৯৬২১০০৩ </a> <br>
+                    <i class="icon-large icon-envelope"></i>&nbsp;&nbsp;<a href="mailto:alien.reyad@gmail.com" target="_blank">alien.reyad@gmail.com</a>
+                </div>
+                <!-- Contact Info Ends -->
+            </div>
+            <!-- Right Panel Ends
+                ================================================== -->
+            <!-- ToTop Starts
+                ================================================== -->  
+            <a href="#" class="scrollup">Scroll</a>      
+            <!-- ToTop Ends
+                ================================================== --> 
+        </div>
+        <!-- Page Contents Ends
+            ================================================== -->
+        <!-- Javascript Files
+            ================================================== -->   
+        <script src="../owl-carousel/owl-carousel/owl.carousel.js"></script> 
+        <!-- Custom JS File -->
+        <script src="../js/custom.js"></script> 
+        <script src="../menu/js/main.js"></script>    
+        <script src="../js/Retina/retina.js"></script>
+    </body>
+</html>
